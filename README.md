@@ -24,10 +24,10 @@ Code used to create **Figure 1** and display cohort statistics.
 
 Code used to generate all BiAge figures including BiAge validation, feature exploration and correlation with immune-related diseases.
 
-### [Humoral race.ipynb](./Humoral race.ipynb)
+### [Humoral race.ipynb](<./Humoral race.ipynb>)
 
 Code used to generate all humoral race prediction figures.
 
-### [Humoral sex.ipynb](./Humoral sex.ipynb)
+### [Humoral sex.ipynb](<./Humoral sex.ipynb>)
 
 Code used to generate all humoral sex prediction figures.
