@@ -20,6 +20,10 @@ Floris Chabrun, PharmD, PhD<sup>1,2,3,4‡</sup>, Sabine Allam, MD<sup>1,2,3‡<
 
 Code used to create **Figure 1** and display cohort statistics.
 
+### [Models training logs.ipynb](<./Models training logs.ipynb>)
+
+Observe loss and metrics during training.
+
 ### [BiAge.ipynb](./BiAge.ipynb)
 
 Code used to generate all BiAge figures including BiAge validation, feature exploration and correlation with immune-related diseases.
