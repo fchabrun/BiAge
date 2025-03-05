@@ -1,7 +1,7 @@
 # Deep learning uncovers humoral age, race, and sex in MALDI-TOF assayed immunoglobulin repertoire in >17,000 samples: the BiAge model (B-cell immune age)
 
 ## Authors
-Floris Chabrun, PharmD, PhD<sup>1,2,3,4‡</sup>, Sabine Allam, MD<sup>1,2,3‡</sup>, Jean-Baptiste Alberge, PhD<sup>1,2,3</sup>, Sungjae Kim, PhD<sup>1,2</sup>, Habib El-Khoury, MD<sup>1</sup>, Christian J. Cea-Curry1, Michael A. Timonian, MD<sup>1,2,3</sup>, Junko Tsuji, PhD<sup>2</sup>, Ting Wu, MS<sup>2</sup>, Elizabeth D. Lightbody, PhD<sup>1,2,3</sup>, Jacqueline Perry, MPH1, Luca Bertamini, MD<sup>1</sup>, Ciara Murphy1, Hiba Hussain, BS<sup>1</sup>, Sofia Wallin, MD<sup>1</sup>, Grace Fleming, BS<sup>1</sup>, Joseph C. Flinn, BA<sup>1</sup>, Dhananjay Sakrikar, PhD<sup>5</sup>, Mark C. Perkins, PhD<sup>5</sup>, Stephen Harding, PhD<sup>5</sup>, David J. Lee, MD<sup>1,2,3</sup>, Hadley Barr, BS<sup>1</sup>, Kenneth C. Anderson, MD<sup>1</sup>, Omar Nadeem, MD<sup>1</sup>, Elizabeth K. O'Donnell, MD<sup>1</sup>, Wenlong C. Chen, PhD<sup>6,7,8</sup>, Maureen Joffe, PhD<sup>6</sup>, Catherine R. Marinac, PhD<sup>1</sup>, Romanos Sklavenitis Pistofidis, MD, PhD<sup>1,2,3</sup>, Gad Getz, PhD<sup>1,2,3</sup>, Irene M. Ghobrial, MD<sup>1,2,3
+Floris Chabrun, PharmD, PhD<sup>1,2,3,4‡</sup>, Sabine Allam, MD<sup>1,2,3‡</sup>, Jean-Baptiste Alberge, PhD<sup>1,2,3</sup>, Sungjae Kim, PhD<sup>1,2</sup>, Habib El-Khoury, MD<sup>1</sup>, Christian J. Cea-Curry1, Michael A. Timonian, MD<sup>1,2,3</sup>, Junko Tsuji, PhD<sup>2</sup>, Ting Wu, MS<sup>2</sup>, Elizabeth D. Lightbody, PhD<sup>1,2,3</sup>, Jacqueline Perry, MPH1, Luca Bertamini, MD<sup>1</sup>, Ciara Murphy1, Hiba Hussain, BS<sup>1</sup>, Sofia Wallin, MD<sup>1</sup>, Grace Fleming, BS<sup>1</sup>, Joseph C. Flinn, BA<sup>1</sup>, Dhananjay Sakrikar, PhD<sup>5</sup>, Mark C. Perkins, PhD<sup>5</sup>, Stephen Harding, PhD<sup>5</sup>, David J. Lee, MD<sup>1,2,3</sup>, Hadley Barr, BS<sup>1</sup>, Kenneth C. Anderson, MD<sup>1</sup>, Omar Nadeem, MD<sup>1</sup>, Elizabeth K. O'Donnell, MD<sup>1</sup>, Wenlong C. Chen, PhD<sup>6,7,8</sup>, Maureen Joffe, PhD<sup>6</sup>, Catherine R. Marinac, PhD<sup>1</sup>, Romanos Sklavenitis Pistofidis, MD, PhD<sup>1,2,3</sup>, Gad Getz, PhD<sup>2,3</sup>, Irene M. Ghobrial, MD<sup>1,2,3
 
 <sup>1</sup>Center for Early Detection and Interception of Blood Cancers, Department of Medical Oncology, Dana-Farber Cancer Institute, Boston, MA, USA<br>
 <sup>2</sup>Cancer Program, Broad Institute of MIT and Harvard, Cambridge, MA, USA<br>
@@ -11,8 +11,20 @@ Floris Chabrun, PharmD, PhD<sup>1,2,3,4‡</sup>, Sabine Allam, MD<sup>1,2,3‡<
 <sup>6</sup>Strengthening Oncology Services Research Unit, Faculty of Health Sciences, University of the Witwatersrand, Johannesburg, South Africa<br>
 <sup>7</sup>National Cancer Registry, a Division of the National Institute for Communicable Diseases, National Health Laboratory Service, Johannesburg, South Africa<br>
 <sup>8</sup>Sydney Brenner Institute for Molecular Bioscience, Faculty of Health Sciences, University of the Witwatersrand, Johannesburg, South Africa<br>
-<sup>‡</sup>both authors contributed equally to this manuscript<br>
+<sup>‡</sup>these authors contributed equally as first authors of this manuscript<br>
 
+## Abstract
+
+Multiple studies have aimed to develop a metric of immune aging to predict susceptibility to immune-related diseases,
+but most focused on the T-cell repertoire in small cohorts with minor racial diversity.
+Here, we leveraged mass spectrometry and deep learning to identify changes in immunoglobulin diversity
+associated with age in a racially diverse cohort of 17,047 samples from 14,688 individuals aged 18 to 95.
+We defined a new metric of B-cell immune aging, BiAge, which correlated with chronological aging independently
+from race and sex and accelerated in patients with monoclonal gammopathy and autoimmune diseases.
+BiAge was explained by subtle peaks forming a continuum between healthy and monoclonal gammopathy,
+and the relative abundance of light chain subpopulations reflecting the representation of certain germline
+variable light chain sequences associated with pathological stereotypical BCRs. In the future,
+this metric could become an easy and rapid biomarker to assess immunosenescence in the clinic.
 
 ## Jupyter notebooks
 
