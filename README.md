@@ -36,9 +36,13 @@ Code used to create **Figure 1** and display cohort statistics.
 
 Observe loss and metrics during training.
 
-### [BiAge v2.ipynb](./BiAge v2.ipynb)
+### [BiAge v2.ipynb](<./BiAge v2.ipynb>)
 
-Code used to generate all BiAge figures including BiAge validation, feature exploration and correlation with immune-related diseases. Dataset and pretrained model required to reproduce results are available at Zenodo.
+Code used to generate all BiAge figures including BiAge validation, feature exploration and correlation with immune-related diseases. Dataset and pretrained model required to reproduce results are available at Zenodo:
+
+Chabrun, F. (2025). BiAge pretrained model. Zenodo. https://doi.org/10.5281/zenodo.15735988
+
+Chabrun, F. (2025). BiAge dataset [Data set]. Zenodo. https://doi.org/10.5281/zenodo.15736318
 
 ### [Humoral race.ipynb](<./Humoral race.ipynb>)
 
